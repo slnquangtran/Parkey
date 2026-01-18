@@ -26,5 +26,5 @@ Parkey is a student-built password manager. We're learning by building a real, s
 ### 5. Add new passwords using the "Create" button
 
 ## Contribution
+### Back-end: Tran Nhat Quang (https://github.com/slnquangtran)
 ### GUI: Tran Le Nam Khanh
-### Back-end: Tran Nhat Quang
