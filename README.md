@@ -1,30 +1,40 @@
-# Parkey
+# Parkey - Secure Password Manager
 
-## Welcome
+**Parkey** is a student-built password manager developed as a learning project. We're creating a real, secure tool to help people manage their passwords effortlessly while mastering software development and security principles.
 
-Parkey is a student-built password manager. We're learning by building a real, secure tool to help people manage their passwords effortlessly.
+##  Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
 
-## Menu
-[Requirements](#requirements)  
-[Installation](#installation)  
-[Usage guide](#usage-guide)  
-[Contribution](#contribution)
+##  Features
+-  **Secure Master Password** - Your passwords are protected by a single master password
+-  **Encrypted Storage** - All passwords are encrypted using industry-standard algorithms
+-  **User-Friendly Interface** - Clean GUI built with Python
+-  **Password Organization** - Store, view, and manage multiple passwords
+-  **Learning Project** - Built by students to understand security and software development
 
-## Requirements  
-* Python 3.8 or higher  
-    * Pillow
-    * Crytography
+##  Requirements
+
+### **System Requirements**
+- Python 3.8 or higher
+- pip package manager
+- 100MB free disk space
+
+### **Python Packages**
+- `cryptography` - For encryption and security
+- `Pillow` - For GUI image handling
+- Additional dependencies (specified in requirements.txt)
 
 ## Installation
 
+### **Option 1: Using Git**
+```bash
+# Clone the repository
+git clone https://github.com/slnquangtran/Parkey.git
 
-## Usage guide
-### 1. Launch the application
-### 2. Register a new account with a master password
-### 3. Login with your accounts
-### 4. View your stored passwords in the main menu
-### 5. Add new passwords using the "Create" button
+# Navigate to project directory
+cd Parkey
 
-## Contribution
-### Back-end: Tran Nhat Quang (https://github.com/slnquangtran)
-### GUI: Tran Le Nam Khanh
+# Install dependencies
+pip install -r requirements.txt
