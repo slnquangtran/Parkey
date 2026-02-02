@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Releasing](#releasing)
 
 ##  Features
 -  **Secure Master Password** - Your passwords are protected by a single master password
@@ -38,3 +39,22 @@ cd Parkey
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Run the app
+python parkey/main.py
+```
+
+## Releasing
+
+Releases are created automatically when you push a version tag.
+
+1. **Update version** in `parkey/version.py` (e.g. `__version__ = "1.0.0"`).
+2. **Update** `CHANGELOG.md` with the new version and changes.
+3. **Commit and push** your changes, then create and push a tag:
+
+   ```bash
+   git tag v1.0.0
+   git push origin v1.0.0
+   ```
+
+4. GitHub Actions will create a **Release** with notes from `CHANGELOG.md` and attach a source zip. Check the **Actions** tab, then **Releases** on your repo.

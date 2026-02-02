@@ -6,6 +6,8 @@ from LoginTab import *
 from RegisterTab import *
 from PIL import Image, ImageTk
 
+from version import __version__
+
 class LoginStep01(Frame):
     def __init__(self, master=None):
         # Pass master to the parent Frame class
@@ -15,7 +17,7 @@ class LoginStep01(Frame):
         self.master = master
         
         if master:
-            self.master.title("Password Manager")
+            self.master.title(f"Parkey - Password Manager v{__version__}")
             self.master.configure(bg="#E8E2D6")
             self.master.attributes("-fullscreen", True)
         
@@ -69,7 +71,7 @@ def main():
     root.geometry("300x150")
     
     app = LoginStep01(root)  # Pass root window as master
-    root.title("Password Manager")
+    root.title(f"Parkey - Password Manager v{__version__}")
     try:
         # Convert Path to string for tkinter
         icon_path = (Path(__file__).parent / 'logo.png')
