@@ -2,11 +2,13 @@
 
 **Parkey** is a student-built password manager developed as a learning project. We're creating a real, secure tool to help people manage their passwords effortlessly while mastering software development and security principles.
 
+
 ##  Table of Contents
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Releasing](#releasing)
+
 
 ##  Features
 -  **Secure Master Password** - Your passwords are protected by a single master password
@@ -14,6 +16,7 @@
 -  **User-Friendly Interface** - Clean GUI built with Python
 -  **Password Organization** - Store, view, and manage multiple passwords
 -  **Learning Project** - Built by students to understand security and software development
+
 
 ##  Requirements
 
@@ -26,6 +29,7 @@
 - `cryptography` - For encryption and security
 - `Pillow` - For GUI image handling
 - Additional dependencies (specified in requirements.txt)
+
 
 ## Installation
 
@@ -43,6 +47,7 @@ pip install -r requirements.txt
 # Run the app
 python parkey/main.py
 ```
+
 
 ## Releasing
 
